@@ -37,7 +37,7 @@
                     <xpath>/Defs/ThingDef[defName="KIT_Gun_Arquebus"]</xpath>
                     <value>
 						<comps>
-                        <li Class="BA_Class.RainFireOffShoot_CompProperties">
+                        <li Class="BlackArmory.RainFireOffShoot_CompProperties">
 						<FireOffWeather>
 						<li>Rain</li>
 						<li>FoggyRain</li>			
@@ -45,7 +45,6 @@
 						<li>SnowHard</li>
 						</FireOffWeather>
 						<ThickCount>10</ThickCount>
-						<Smoke>Musket_Smoke</Smoke>
                         </li>
 						</comps>
                     </value>
@@ -54,7 +53,7 @@
                     <xpath>/Defs/ThingDef[defName="KIT_Gun_BayonetMusket"]</xpath>
                     <value>
 						<comps>
-                        <li Class="BA_Class.RainFireOffShoot_CompProperties">
+                        <li Class="BlackArmory.RainFireOffShoot_CompProperties">
 						<FireOffWeather>
 						<li>Rain</li>
 						<li>FoggyRain</li>	
@@ -62,7 +61,6 @@
 						<li>SnowHard</li>	
 						</FireOffWeather>
 						<ThickCount>10</ThickCount>
-						<Smoke>Musket_Smoke</Smoke>
                         </li>
 						</comps>
                     </value>
@@ -71,7 +69,7 @@
 					<xpath>/Defs/ThingDef[defName="KIT_Gun_Blunderbuss"]</xpath>
                     <value>
 						<comps>
-                        <li Class="BA_Class.RainFireOffShoot_CompProperties">
+                        <li Class="BlackArmory.RainFireOffShoot_CompProperties">
 						<FireOffWeather>
 						<li>Rain</li>
 						<li>FoggyRain</li>	
@@ -79,7 +77,6 @@
 						<li>SnowHard</li>	
 						</FireOffWeather>
 						<ThickCount>10</ThickCount>
-						<Smoke>Musket_Smoke</Smoke>
                         </li>
 						</comps>
                     </value>
@@ -88,13 +85,12 @@
                     <xpath>/Defs/ThingDef[defName="KIT_Gun_HandMortar"]</xpath>
                     <value>
 						<comps>
-                        <li Class="BA_Class.RainFireOffShoot_CompProperties">
+                        <li Class="BlackArmory.RainFireOffShoot_CompProperties">
 						<FireOffWeather>	
 						<li>FoggyRain</li>	
 						<li>RainyThunderstorm</li>	
 						</FireOffWeather>
 						<ThickCount>10</ThickCount>
-						<Smoke>Musket_Smoke</Smoke>
                         </li>
 						</comps>
                     </value>
@@ -108,7 +104,7 @@
 					defName="KIT_Gun_HandMortar"
 					]/verbs/li/verbClass</xpath>
                     <value>
-						<verbClass>BA_Class.Verb_RainFireOffShoot</verbClass>
+						<verbClass>BlackArmory.Verb_RainFireOffShoot</verbClass>
                     </value>				
                 </li>	
             </operations>
