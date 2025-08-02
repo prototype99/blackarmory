@@ -26,7 +26,7 @@
                     <xpath>/Defs/ThingDef[defName="VWE_Gun_Musket"]</xpath>
                     <value>
 						<comps>
-                        <li Class="BA_Class.RainFireOffShoot_CompProperties">
+                        <li Class="BlackArmory.RainFireOffShoot_CompProperties">
 						<FireOffWeather>
 						<li>Rain</li>
 						<li>FoggyRain</li>	
@@ -43,7 +43,7 @@
                     <xpath>/Defs/ThingDef[defName="VWE_Gun_Flintlock"]</xpath>
                     <value>
 						<comps>
-                        <li Class="BA_Class.RainFireOffShoot_CompProperties">
+                        <li Class="BlackArmory.RainFireOffShoot_CompProperties">
 						<FireOffWeather>
 						<li>FoggyRain</li>	
 						<li>RainyThunderstorm</li>
@@ -58,7 +58,7 @@
 				  <li Class="PatchOperationReplace">
                     <xpath>/Defs/ThingDef[defName="VWE_Gun_Musket" or defName="VWE_Gun_Flintlock"]/verbs/li/verbClass</xpath>
                     <value>
-						<verbClass>BA_Class.Verb_RainFireOffShoot</verbClass>
+						<verbClass>BlackArmory.Verb_RainFireOffShoot</verbClass>
                     </value>				
                 </li>		
             </operations>
