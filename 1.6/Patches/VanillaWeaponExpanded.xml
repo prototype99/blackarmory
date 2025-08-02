@@ -34,7 +34,6 @@
                                     <li>SnowHard</li>
                                 </FireOffWeather>
                                 <ThickCount>10</ThickCount>
-                                <!--<Smoke>Musket_Smoke</Smoke>-->
                             </li>
 						</comps>
                     </value>
@@ -49,7 +48,6 @@
                                     <li>RainyThunderstorm</li>
                                 </FireOffWeather>
                                 <ThickCount>10</ThickCount>
-                                <!--<Smoke>Musket_Smoke</Smoke>-->
                             </li>
 						</comps>
                     </value>
