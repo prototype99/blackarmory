@@ -108,7 +108,7 @@
 					defName="KIT_Gun_HandMortar"
 					]/verbs/li/verbClass</xpath>
                     <value>
-						<verbClass>BlackArmory.Verb_RainFireOffShoot</verbClass>
+						<verbClass>BlackArmory.RainFireOffShoot_CompProperties</verbClass>
                     </value>				
                 </li>	
             </operations>

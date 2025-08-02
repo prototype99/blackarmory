@@ -7,3 +7,5 @@
 1.0.3 - 5/23/2024 - removed version from preview image
 
 1.0.4 - 4/14/2025 - updated to 1.6
+
+1.0.5 - 8/2/2025 - fix to patches, thanks Sophie the Opossum!

@@ -58,7 +58,7 @@
 				  <li Class="PatchOperationReplace">
                     <xpath>/Defs/ThingDef[defName="VWE_Gun_Musket" or defName="VWE_Gun_Flintlock"]/verbs/li/verbClass</xpath>
                     <value>
-						<verbClass>BlackArmory.Verb_RainFireOffShoot</verbClass>
+						<verbClass>BlackArmory.RainFireOffShoot_CompProperties</verbClass>
                     </value>				
                 </li>		
             </operations>
