@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest>
+  <identifier>zal.aobamusket</identifier>
+  <version>1.0.4.0</version>
+  <targetVersions>    
+  </targetVersions>
+  <dependencies>
+  </dependencies>
+  <incompatibleWith>
+  </incompatibleWith>
+  <loadBefore>	  
+  </loadBefore>
+  <loadAfter>	
+  </loadAfter>
+  <manifestUri></manifestUri>
+  <downloadUri></downloadUri>
+<showCrossPromotions>true</showCrossPromotions>
+</Manifest>
+
