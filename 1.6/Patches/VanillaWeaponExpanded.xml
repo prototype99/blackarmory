@@ -26,16 +26,16 @@
                     <xpath>/Defs/ThingDef[defName="VWE_Gun_Musket"]</xpath>
                     <value>
 						<comps>
-                        <li Class="BlackArmory.RainFireOffShoot_CompProperties">
-						<FireOffWeather>
-						<li>Rain</li>
-						<li>FoggyRain</li>	
-						<li>RainyThunderstorm</li>
-						<li>SnowHard</li>	
-						</FireOffWeather>
-							<ThickCount>10</ThickCount>
-							<!--<Smoke>Musket_Smoke</Smoke>-->
-                        </li>
+                            <li Class="BlackArmory.RainFireOffShoot_CompProperties">
+                                <FireOffWeather>
+                                    <li>Rain</li>
+                                    <li>FoggyRain</li>
+                                    <li>RainyThunderstorm</li>
+                                    <li>SnowHard</li>
+                                </FireOffWeather>
+                                <ThickCount>10</ThickCount>
+                                <!--<Smoke>Musket_Smoke</Smoke>-->
+                            </li>
 						</comps>
                     </value>
                 </li>
@@ -43,15 +43,14 @@
                     <xpath>/Defs/ThingDef[defName="VWE_Gun_Flintlock"]</xpath>
                     <value>
 						<comps>
-                        <li Class="BlackArmory.RainFireOffShoot_CompProperties">
-						<FireOffWeather>
-						<li>FoggyRain</li>	
-						<li>RainyThunderstorm</li>
-						</FireOffWeather>
-							<ThickCount>10</ThickCount>
-							<!--<Smoke>Musket_Smoke</Smoke>-->
-
-                        </li>
+                            <li Class="BlackArmory.RainFireOffShoot_CompProperties">
+                                <FireOffWeather>
+                                    <li>FoggyRain</li>
+                                    <li>RainyThunderstorm</li>
+                                </FireOffWeather>
+                                <ThickCount>10</ThickCount>
+                                <!--<Smoke>Musket_Smoke</Smoke>-->
+                            </li>
 						</comps>
                     </value>
                 </li>
