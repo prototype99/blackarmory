@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <!--===== Bullet Category ====-->
+
+    <!-- Basic lead round bullet -->
+    <ThingDef ParentName="BaseBullet">
+        <defName>BA_Bullet_BasicRound</defName>
+        <label>lead round</label>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>16</damageAmountBase>
+            <speed>55</speed>
+        </projectile>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_BasicRound</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingDef>
+
+    <!-- Improved lead round bullet -->
+    <ThingDef ParentName="BaseBullet">
+        <defName>BA_Bullet_BasicRoundPlus</defName>
+        <label>lead round</label>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>40</damageAmountBase>
+            <speed>65</speed>
+        </projectile>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_BasicRound</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingDef>
+
+    <!-- Small spread round bullet -->
+    <ThingDef ParentName="BaseBullet">
+        <defName>BA_Bullet_SpreadRound</defName>
+        <label>Small lead round</label>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>15</damageAmountBase>
+            <speed>60</speed>
+        </projectile>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_SpreadRound</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingDef>
+
+    <!-- Heavy lead round bullet -->
+    <ThingDef ParentName="BaseBullet">
+        <defName>BA_Bullet_HeavyRound</defName>
+        <label>Heavy lead round</label>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>50</damageAmountBase>
+            <speed>60</speed>
+        </projectile>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_HeavyRound</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingDef>
+</Defs>

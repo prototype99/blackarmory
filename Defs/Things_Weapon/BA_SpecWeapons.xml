@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <!--===== Special Weapons Category ====-->
+
+    <!-- Hand Culverin -->
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>BA_Gun_HandCannon_R</defName>
+        <label>Hand Culverin</label>
+        <description>An oversized musket with massive firepower to shoot heavy rounds over cover.</description>
+        <graphicData>
+            <texPath>Things/Weapon/HandCannon_Heavy</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1.2</drawSize>
+        </graphicData>
+        <techLevel>Medieval</techLevel>
+        <comps>
+            <!-- <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon"> </li> -->
+            <li Class="BlackArmory.RainFireOffShoot_CompProperties">
+                <FireOffWeather>
+                    <li>Rain</li>
+                    <li>FoggyRain</li>
+                    <li>RainyThunderstorm</li>
+                    <li>SnowHard</li>
+                </FireOffWeather>
+                <ThickCount>5</ThickCount>
+            </li>
+        </comps>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <statBases>
+            <WorkToMake>32500</WorkToMake>
+            <Mass>10</Mass>
+            <AccuracyTouch>0.25</AccuracyTouch>
+            <AccuracyShort>0.8</AccuracyShort>
+            <AccuracyMedium>0.5</AccuracyMedium>
+            <AccuracyLong>0.2</AccuracyLong>
+            <RangedWeapon_Cooldown>8</RangedWeapon_Cooldown>
+        </statBases>
+        <equippedAngleOffset>45</equippedAngleOffset>
+        <weaponTags>
+            <li>NeolithicRangedHeavy</li>
+            <li>NeolithicRangedChief</li>
+        </weaponTags>
+        <costList>
+            <WoodLog>150</WoodLog>
+            <Steel>80</Steel>
+        </costList>
+        <recipeMaker>
+            <recipeUsers>
+                <li>BA_FueledGunSmithy</li>
+            </recipeUsers>
+            <researchPrerequisite>BA_Tanegashima</researchPrerequisite>
+        </recipeMaker>
+        <verbs>
+            <li>
+                <verbClass>BlackArmory.Verb_RainFireOffShoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>BA_Bullet_HeavyRound</defaultProjectile>
+                <warmupTime>2</warmupTime>
+                <range>80.9</range>
+                <soundCast>BA_Musket</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>4</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>4</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+
+    <!-- Wall Gun -->
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>BA_Gun_WallGun</defName>
+        <label>Wall Gun</label>
+        <description>A heavy musket designed to deal with heavily armored targets like Mechanoids.</description>
+        <graphicData>
+            <texPath>Things/Weapon/Flintlock_WallGun</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1.5</drawSize>
+        </graphicData>
+        <techLevel>Medieval</techLevel>
+        <comps>
+            <!-- <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon"> </li> -->
+            <li Class="BlackArmory.RainFireOffShoot_CompProperties">
+                <FireOffWeather>
+                    <li>FoggyRain</li>
+                    <li>RainyThunderstorm</li>
+                </FireOffWeather>
+                <ThickCount>5</ThickCount>
+            </li>
+        </comps>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <statBases>
+            <WorkToMake>40000</WorkToMake>
+            <Mass>15</Mass>
+            <AccuracyTouch>0.25</AccuracyTouch>
+            <AccuracyShort>0.9</AccuracyShort>
+            <AccuracyMedium>0.8</AccuracyMedium>
+            <AccuracyLong>0.7</AccuracyLong>
+            <RangedWeapon_Cooldown>7</RangedWeapon_Cooldown>
+        </statBases>
+        <equippedAngleOffset>45</equippedAngleOffset>
+        <weaponTags>
+            <li>NeolithicRangedHeavy</li>
+            <li>NeolithicRangedChief</li>
+        </weaponTags>
+        <costList>
+            <WoodLog>275</WoodLog>
+            <Steel>100</Steel>
+        </costList>
+        <recipeMaker>
+            <recipeUsers>
+                <li>BA_FueledGunSmithy</li>
+            </recipeUsers>
+            <researchPrerequisite>BA_HighCaliber</researchPrerequisite>
+        </recipeMaker>
+        <verbs>
+            <li>
+                <verbClass>BlackArmory.Verb_RainFireOffShoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>BA_Bullet_BasicRoundPlus</defaultProjectile>
+                <warmupTime>2</warmupTime>
+                <range>60.9</range>
+                <soundCast>BA_Musket</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>4</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>4</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+</Defs>

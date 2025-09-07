@@ -1,6 +1,0 @@
-F:\Microsoft Visual Studio\Repos\BlackArmory\BlackArmory\bin\Debug\BlackArmory.dll
-F:\Microsoft Visual Studio\Repos\BlackArmory\BlackArmory\bin\Debug\BlackArmory.pdb
-F:\Microsoft Visual Studio\Repos\BlackArmory\BlackArmory\obj\Debug\BlackArmory.csproj.AssemblyReference.cache
-F:\Microsoft Visual Studio\Repos\BlackArmory\BlackArmory\obj\Debug\BlackArmory.csproj.CoreCompileInputs.cache
-F:\Microsoft Visual Studio\Repos\BlackArmory\BlackArmory\obj\Debug\BlackArmory.dll
-F:\Microsoft Visual Studio\Repos\BlackArmory\BlackArmory\obj\Debug\BlackArmory.pdb
